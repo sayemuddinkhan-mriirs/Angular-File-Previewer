@@ -10,7 +10,8 @@ export class PptxComponent implements OnInit {
   viewer = "google";
   docUrl = {
     ppt: "https://drive.google.com/file/d/1eqQRBovr4krWRtX91she9OQwAjJUf8Ok/view?usp=sharing",
-    pptx: "https://drive.google.com/file/d/1Vnp0EEu56CH-Ir9i1JOJbfEzVxqcEjUR/view?usp=sharing"
+    pptx: "https://drive.google.com/file/d/1Vnp0EEu56CH-Ir9i1JOJbfEzVxqcEjUR/view?usp=sharing",
+    s3: "https://cloud-court-resources.s3.us-east-2.amazonaws.com/Cloud+Court+Armatus+-+AHM.pptx"
   }
 
   constructor() { }
