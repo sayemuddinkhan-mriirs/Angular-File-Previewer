@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ExcelComponent implements OnInit {
 
-  viewer = "url";
+  viewer = "google";
   viewerUrl = "https://docs.google.com/gview?url=%URL%&embedded=true";
   docUrl = {
     xls: "https://drive.google.com/file/d/1DP7T1DOHdj8lA0bC_CdhIkWCrKQY8z7T/view?usp=sharing",
